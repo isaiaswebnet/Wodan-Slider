@@ -9,7 +9,7 @@ if ( !defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 global $wpdb;
 	
 	$cptName             = 'wodanslider';
-	$optionsName         = 'wodanslides_options';
+	$optionsName         = 'wodanslider_options';
 	
 	$tablePostMeta       = $wpdb->prefix . 'postmeta';
 	$tablePosts          = $wpdb->prefix . 'posts';
